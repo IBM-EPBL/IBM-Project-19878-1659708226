@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Donor Details</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='CSS/request.css') }}">
+</head>
+
+<body
+    style="background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)), url({{url_for('static',filename='plasma.jpg')}});">
+    <form action="confirmation" method="POST">
+
+        <h1 align="center" style="color: yellow">DONOR DETAILS</h1>
+
+
+        <table table style="color: black">
+            <tr align="center" style="color: red;padding-top:5px">
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Blood Group</th>
+                <th>Email Address</th>
+                <th>phone number</th>
+                <th>Address</th>
+            </tr>
+
+            <tr align=center>
+                <td>Bhuvanesh</td>
+                <td>J</td>
+                <td>22</td>
+                <td>Male</td>
+                <td>O</td>
+                <td>bhuvaneshj@gmail.com</td>
+                <td>9654789865</td>
+                <td>Vannarpettai</td>
+                <td>
+                    <div class="container">
+                        <a href="confirmation"><button class=".btn">Message</button></a>
+                    </div>
+                </td>
+            </tr>
+            <tr align=center>
+                <td>Kishore</td>
+                <td>R</td>
+                <td>32</td>
+                <td>Male</td>
+                <td>A</td>
+                <td>kishore@gmail.com</td>
+                <td>6687958985</td>
+                <td>Madurai</td>
+                <td>
+                    <div class="container">
+                        <a href="confirmation"><button class=".btn">Message</button></a>
+                    </div>
+                </td>
+            </tr>
+            <tr align=center>
+                <td>Jeffrey</td>
+                <td>Benison</td>
+                <td>29</td>
+                <td>Male</td>
+                <td>B</td>
+                <td>jeff@gmail.com</td>
+                <td>8889898685</td>
+                <td>Chennai</td>
+                <td>
+                    <div class="container">
+                        <a href="confirmation"><button class=".btn">Message</button></a>
+                    </div>
+                </td>
+            </tr>
+            <tr align=center>
+                <td>Aman</td>
+                <td>Singh</td>
+                <td>20</td>
+                <td>Male</td>
+                <td>O</td>
+                <td>aman@gmail.com</td>
+                <td>6398521470</td>
+                <td>Tirunelveli</td>
+                <td>
+                    <div class="container">
+                        <a href="confirmation"><button class=".btn">Message</button></a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+
+        <br><br>
+
+        </table>
+    </form>
+</body>
+
+</html>
